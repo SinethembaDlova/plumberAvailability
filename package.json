@@ -1,0 +1,20 @@
+{
+  "name": "plumber-availability",
+  "version": "1.0.0",
+  "description": "Check what time will the plumber available.",
+  "main": "./compiledJS/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/express": "^4.0.39",
+    "@types/mongoose": "^4.7.28",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.5"
+  }
+}
