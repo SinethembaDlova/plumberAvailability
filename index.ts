@@ -1,10 +1,9 @@
 import {Server} from './server';
-// import regDB from './models/plumberDB';
-// import { HomeRoute } from './routes/homeRoute';
+import { UserAccount } from './routes/signUp';
 // import { FilterRoute} from './routes/filterRoute';
 
 //instances of my routes
 var server = new Server();
-// var routes = new HomeRoute();
+var userAccount = new UserAccount();
 
-//server.app.get('/', 'hello word');
+server.app.get('/signup', userAccount.signup);
