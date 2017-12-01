@@ -6,4 +6,4 @@ import { UserAccount } from './routes/signUp';
 var server = new Server();
 var userAccount = new UserAccount();
 
-server.app.get('/signup', userAccount.signup);
+server.app.post('/signup', userAccount.signup);
